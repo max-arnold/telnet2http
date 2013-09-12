@@ -16,11 +16,11 @@ Compilation
 
 1. On Linux:
 
-gcc telnet2http.c -o testnet2http
+    gcc telnet2http.c -o testnet2http
 
 2. On Solaris:
 
-gcc telnet2http.c -lsocket -o testnet2http
+    gcc telnet2http.c -lsocket -o testnet2http
 
 
 Usage
@@ -30,14 +30,14 @@ To run this proxy you need Linux or Solaris machine (possibly virtual one).
 
 1. Launch telnet2http:
 
-./telnet2http <linux_pc ip> <cisco ip> Loopback0 <AudioCodes_ip> 8080 1 0
+    ./telnet2http <linux_pc ip> <cisco ip> Loopback0 <AudioCodes_ip> 8080 1 0
 
 2. Enter login credentials:
 
-login:
-password:
-enable (optional)
+    login:
+    password:
+    enable (optional)
 
 3. Set http proxy in the browser:
 
-http://<linux_ip>:8080
+    http://<linux_ip>:8080
